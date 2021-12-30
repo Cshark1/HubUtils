@@ -1,4 +1,4 @@
-name: MoveMeNow
+name: HubUtils
 main: net.craftminecraft.bungee.movemenow.MoveMeNow
 version: ${pom.version}-${build.number}
-author: roblabla
+author: roblabla,Cshark

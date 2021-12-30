@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.logging.Level;
 
 import com.google.common.io.ByteStreams;
+import dev.cshark.movemenow.Hub;
+import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Plugin;
@@ -22,6 +24,7 @@ public class MoveMeNow extends Plugin {
         loadConfig();
         this.getProxy().getPluginManager().registerListener(this, new PlayerListener(this));
         this.getProxy().getPluginManager().registerCommand(this, new ReloadCommand(this));
+        ProxyServer.getInstance().getPluginManager().registerCommand(this, new Hub(this));
     }
 
     @Override
