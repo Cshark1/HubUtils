@@ -23,7 +23,6 @@ public class MoveMeNow extends Plugin {
     public void onEnable() {
         loadConfig();
         this.getProxy().getPluginManager().registerListener(this, new PlayerListener(this));
-        this.getProxy().getPluginManager().registerCommand(this, new ReloadCommand(this));
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new Hub(this));
     }
 

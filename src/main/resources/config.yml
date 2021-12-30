@@ -3,16 +3,16 @@ connecting_message: '&7[&6/hub utils&7] &fSending...'
 connected_message: '&7[&6/hub utils&7] &fSuccessfully sent to the lobby'
 hub_offline: '&7[&6/hub utils&7] &4Lobby is offline.'
 no_permission: "&7[&6/hub utils&7] &4You Don't have permission to do this!"
-# The message to send to the player when he gets sent to the lobby because the server he was on goes offline.
-#Use the placeholder: %kickmsg% for the original message
+# The message to send to the player when he gets kicked from the server.
+# Use the placeholder: %kickmsg% for the original message.
 message: "%kickmsg%"
 aliases: ["lobby"]
-# If true the permission is hubutils.hub
+# Enable permission for the /hub command. If true the permission is hubutils.hub.
 require_perm: false
-# The name of the hub.
+# The name of the hub server.
 servername: "lobby"
 mode: blacklist
-# If words from this list are found in the message that the played gets when the server gets offline don't send the player to hub
+# If words from this list are found in the message that the played gets when he gets kicked of the server.
 list:
 - ban
 - kick
