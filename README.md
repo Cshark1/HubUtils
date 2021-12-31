@@ -12,3 +12,4 @@
     <a href="https://github.com/Cshark1/HubUtils/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Cshark1/HubUtils"></a>
     <img alt="Discord" src="https://img.shields.io/discord/924121680564060240">
 </div>
+<img alt="Demo video" src="https://github.com/Cshark1/HubUtils/blob/master/images/demo.gif?raw=true" width="100%">
